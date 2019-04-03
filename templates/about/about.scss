@@ -1,0 +1,46 @@
+@charset 'utf-8';
+/* COPYRIGHT 2017 Gabriel Lasaro, Todos os direitos reservados. */
+$fd_family:'Open Sans', sans-serif;
+$fd_size18:18px;
+$fd_color:#303030;
+$fd_margin:2px 2px 2px 20px;
+$fd_padding:4px;
+$boxshadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+body {
+  padding:0px;
+  margin:0px;
+  background: #fff;
+}
+.page-content{
+  img{
+    position:relative;
+    left:50%;
+    width:400px;
+    margin-left:-200px;
+    margin-top:90px;
+    margin-bottom:20px;
+  }
+  p{
+    text-align:center;
+    font-family:$fd_family;
+    font-size:14px;
+    color:#303030;
+    margin:10px;
+  }
+}
+#title{
+  text-align:center;
+  font-family:$fd_family;
+  font-size:22px;
+  color:#303030;
+  margin:10px;
+}
+#copy{
+  text-align:center;
+  margin:20px 0px 20px 0px;
+  padding:18px;
+  color:#303030;
+  font-family:$fd_family;
+  font-size: 14px;
+}

@@ -1,0 +1,295 @@
+@charset 'utf-8';
+/* COPYRIGHT 2016-2017 Gabriel Lasaro, Todos os direitos reservados. */
+$fd_family:'Open Sans', sans-serif;
+$fd_family2:Raleway, 'Open Sans', sans-serif;
+$fd_size18:18px;
+$fd_color:#303030;
+$fd_margin:2px 2px 2px 20px;
+$fd_padding:4px;
+$boxshadow:0 3px 3px rgba(0,0,0,0.16), 0 3px 3px rgba(0,0,0,0.23);
+body {
+  padding:0px;
+  margin:0px;
+  background-color: #fff;
+}
+// BUSCA
+#subbarra{
+  width:100%;
+  margin-top: 70px;
+  background: #8FBC8F;
+  form{
+    margin:0px;
+    padding:10px;
+    input[type="search"] {
+       font-family: $fd_family;
+       font-size: 16px;
+       border: none;
+       color:#303030;
+       background:#2E8B57;
+       border-radius: 2px;
+       padding: 12px;
+       width: 400px;
+       margin-right: 5px;
+       outline: none;
+    }
+    input[type="submit"] {
+       font-family: $fd_family;
+       font-size: 16px;
+       font-weight:bold;
+       border-radius:2px;
+       color:#8FBC8F;
+       background:#2F4F4F;
+       padding: 11px;
+       border: 1px solid #2F4F4F;
+       border-radius: 0px 50px 50px 0px;
+       cursor: pointer;
+       outline: none;
+    }
+    input[type="submit"]:hover {
+      background: #2F4F4F;
+      border: 1px solid #2F4F4F;
+    }
+  }
+}
+// FIM BUSCA
+#container_category{
+  position:fixed;
+  width:100%;
+  background:#808080;
+  top:80px;
+  box-shadow:$boxshadow;
+  ul{
+    margin:0px;
+    padding:10px;
+    text-align:center;
+    li{
+      display:inline-block;
+      font-family:$fd_family;
+      font-size:14px;
+      margin:0px;
+      padding:10px;
+      text-transform:uppercase;
+      border-radius:50px;
+      a{
+        text-decoration:none;
+        color:#303030;
+      }
+      // a:hover{
+      //   color:#303030;
+      // }
+    }
+    li:hover{
+      background:#fff;
+      box-shadow:$boxshadow;
+      transition-duration:0.8s;
+    }
+  }
+}
+// INÍCIO: WIKIAR HOME BAR
+.wikiar-home-bar {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background:#808080;
+  #logo{
+    position: relative;
+    width:200px;
+    margin-left: -100px;
+    left:50%;
+    margin-top:14px;
+  }
+  #img-menu {
+    position: absolute;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  // #container_search{
+  //   display:inline-block;
+  //   float:right;
+  //   right:0px;
+  //   // width:250px;
+  //   // background:#000;
+  //   margin:14px;
+  //   input{
+  //     width:250px;
+  //     font-family:$fd_family;
+  //     font-size:12px;
+  //     font-color:#2E8B57;
+  //     color:#303030;
+  //     padding:10px;
+  //     border-radius:10px;
+  //     // background:#fff;
+  //     border: 1px solid #3CB371;
+  //     outline:none;
+  //   }
+  // }
+}
+// FIM: WIKIAR CLASSIC BAR
+.box_home{
+  position:relative;
+  width:1040px;
+  margin-left:-520px;
+  left:50%;
+  // background:#fff000;
+  margin-top:60px;
+  .top{
+    position:relative;
+    width:900px;
+    height:240px;
+    margin:8px 8px 60px 8px;
+    a{
+      text-decoration:none;
+    }
+    #left{
+      float:left;
+      width:600px;
+      height:240px;
+      img{
+        width:100%;
+        height:100%;
+        background-size:600px;
+        background-position:center center;
+        background-repeat: no-repeat;
+        box-shadow:$boxshadow;
+      }
+    }
+    #right{
+      float:left;
+      width:300px;
+      height:240px;
+      #more{
+        width:100%;
+        #title{
+          text-align: left;
+          font-weight:bold;
+          margin: 0px;
+          padding:10px;
+          font-family:$fd_family;
+          font-size: 22px;
+          color: #303030;
+        }
+      }
+      #profile{
+        width:100%;
+        img{
+          width:40px;
+          height:40px;
+          border-radius:100%;
+          margin:10px 0px 10px 10px;
+        }
+        p{
+          display:inline-block;
+          position:absolute;
+          float:left;
+          margin:18px 0px 0px 10px;
+          font-family:$fd_family;
+          font-size:$fd_size18;
+          color:#303030;
+        }
+      }
+    }
+  }
+  p{
+    text-align:left;
+    font-family:$fd_family;
+    font-size:24px;
+    color:#808080;
+    margin:10px 0px 20px 10px;
+  }
+  .p_msg{
+    font-family:$fd_family;
+    font-size:28px;
+    margin:20px 4px 20px 40px;
+    color:#808080;
+  }
+  .p_erro{
+    font-style:italic;
+    color:#FF6347;
+  }
+}
+.container-post{
+  display:inline-block;
+  position: relative;
+  width:500px;
+  margin:8px;
+  a{
+    text-decoration:none;
+  }
+  img{
+      width:100%;
+      height:100%;
+      background-size:500px;
+      background-position:center center;
+      background-repeat: no-repeat;
+  }
+  .div_profile{
+    position:relative;
+    width:100%;
+    height:50px;
+    img{
+      width:40px;
+      height:40px;
+      border-radius:100%;
+      margin:5px 0px 5px 5px;
+    }
+    p{
+      display:inline-block;
+      position:absolute;
+      float:left;
+      margin:12px 0px 12px 10px;
+      font-family:$fd_family;
+      font-size:$fd_size18;
+      color:#808080;
+    }
+  }
+  #more{
+    position:relative;
+    width:100%;
+    margin-top:4px;
+    #title{
+      text-align: left;
+      font-weight:bold;
+      margin: 0px;
+      padding:8px;
+      font-family:$fd_family;
+      font-size: 22px;
+      color: #303030;
+    }
+  }
+}
+hr {
+  color: #303030;
+  background-color: #303030;
+  height: 1px;
+  border: 0px solid;
+  margin: 8px 10px 8px 10px;
+}
+#hr_barra {
+  color: #303030;
+  background-color: #303030;
+  height: 2px;
+  border: 0px solid;
+  margin: 8px 0px 8px 0px;
+}
+#update_hr{
+  position:relative;
+  width:400px;
+  margin-left:-200px;
+  left:50%;
+}
+#ico-img2 {
+  float: left;
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  margin: 12px 8px 13px 8px;
+  background: #2E8B57;
+  padding: 8px;
+  border-radius: 100%;
+  opacity: 0.8;
+  cursor: pointer;
+}

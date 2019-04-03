@@ -1,0 +1,88 @@
+/* COPYRIGHT 2016-2017 Gabriel Lasaro, Todos os direitos reservados. */
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #fff; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  color: #808080;
+  margin: 4px 4px 4px 40px; }
+
+#subbarra {
+  width: 100%;
+  margin-top: 72px;
+  background: #303030; }
+  #subbarra p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    color: #808080;
+    margin: 0px 4px 0px 40px;
+    padding: 14px 0px 14px 0px;
+    text-transform: uppercase; }
+
+#container_home {
+  position: relative;
+  width: 1040px;
+  margin-left: -520px;
+  left: 50%;
+  margin-top: 20px; }
+
+.container-post {
+  display: inline-block;
+  position: relative;
+  width: 500px;
+  margin: 8px; }
+  .container-post a {
+    text-decoration: none; }
+  .container-post img {
+    width: 100%;
+    height: 100%;
+    background-size: 500px;
+    background-position: center center;
+    background-repeat: no-repeat; }
+  .container-post .div_profile {
+    position: relative;
+    width: 100%;
+    height: 50px; }
+    .container-post .div_profile img {
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      margin: 5px 0px 5px 5px; }
+    .container-post .div_profile p {
+      display: inline-block;
+      position: absolute;
+      float: left;
+      margin: 12px 0px 12px 10px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 18px;
+      color: #808080; }
+  .container-post #more {
+    position: relative;
+    width: 100%;
+    margin-top: 4px; }
+    .container-post #more #title {
+      text-align: left;
+      font-weight: bold;
+      margin: 0px;
+      padding: 8px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 22px;
+      color: #303030; }
+
+hr {
+  color: #303030;
+  background-color: #303030;
+  height: 1px;
+  border: 0px solid;
+  margin: 8px 0px 8px 0px; }
+
+#update_hr {
+  position: relative;
+  width: 400px;
+  margin-left: -200px;
+  left: 50%; }
+
+/*# sourceMappingURL=style.css.map */

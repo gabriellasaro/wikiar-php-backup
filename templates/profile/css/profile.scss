@@ -1,0 +1,204 @@
+@charset 'utf-8';
+/* COPYRIGHT 2016-2017 Gabriel Lasaro, Todos os direitos reservados. */
+$fd_family:'Open Sans', sans-serif;
+$fd_size18:18px;
+$fd_color:#303030;
+$fd_margin:2px 2px 2px 20px;
+$fd_padding:4px;
+
+body {
+  padding:0px;
+  margin:0px;
+  background-color: #fff;
+}
+#txt{
+  text-align: left;
+  margin: 10px 5px 10px 40px;
+  font-family:$fd_family;
+  font-size: 24px;
+  // font-weight:bold;
+  color: $fd_color;
+  padding:$fd_padding;
+}
+// Cabeçalho do perfil
+.container-header{
+  position: relative;
+  width:100%;
+  // height:900px;
+  // background: #3CB371;
+  padding:0px 0px 8px 0px;
+  margin-top:71px;
+  .img-capa{
+    // position:absolute;
+    width:100%;
+    height:340px;
+    // background:#000;
+    background-size:1500px;
+    background-position:bottom center;
+    background-repeat:no-repeat;
+  }
+  .not-img-capa{
+    width:100%;
+    height:10px;
+  }
+  #img-profile{
+    display:inline-block;
+    position:absolute;
+    width:100%;
+    // background:#ff0000;
+    top:240px;
+      img{
+        position:relative;
+        left:50%;
+        width:150px;
+        height:150px;
+        margin-left:-75px;
+        background:#303030;
+        border-radius:100%;
+      }
+  }
+  #container_first{
+      width:100%;
+      // background:#ff0000;
+      margin-top:70px;
+      #display_name{
+        text-align: center;
+        margin: 10px;
+        font-family:$fd_family;
+        font-size: 34px;
+        font-weight:bold;
+        color: $fd_color;
+        padding:$fd_padding;
+        cursor: default;
+      }
+      p {
+        text-align: center;
+        margin: 0px 50px 0px 50px;
+        font-family:$fd_family;
+        font-size: $fd_size18;
+        color: $fd_color;
+        padding:$fd_padding;
+        cursor: default;
+      }
+    }
+}
+.info{
+  display:inline-block;
+  position: relative;
+  width:580px;
+  margin:10px 8px 10px 8px;
+  background:#dedede;
+  border-radius:2px;
+  #t1{
+    text-align: left;
+    margin:10px 0px 0px 10px;
+    font-family:$fd_family;
+    font-weight:bold;
+    font-size: 18px;
+    color: $fd_color;
+    padding:$fd_padding;
+  }
+  #t2{
+    text-align: left;
+    margin:0px 10px 0px 10px;
+    font-family:$fd_family;
+    font-size: 16px;
+    color: $fd_color;
+    padding:$fd_padding;
+  }
+  #button{
+    text-align: center;
+    margin:0px;
+    font-family:$fd_family;
+    font-weight:bold;
+    font-size: 16px;
+    color: #dedede;
+    padding:10px;
+    background:#303030;
+    text-transform:uppercase;
+    cursor:pointer;
+    border-radius:2px;
+  }
+  img{
+    width:48px;
+    margin:5px;
+  }
+}
+// FIM: CABEÇALHO
+#box_centro{
+  position:relative;
+  // background:#303030;
+  width:600px;
+  margin-left:-300px;
+  margin-top:0px;
+  margin-bottom:20px;
+  padding: 5px 0px 5px 0px;
+  left:50%;
+}
+.block_post{
+  display:inline-block;
+  position: relative;
+  width:580px;
+  margin:12px 8px 12px 8px;
+  #container_img{
+    position:relative;
+    width:100%;
+    height:248px;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+  #more{
+    position:relative;
+    width:100%;
+    margin-top:4px;
+    #title{
+      text-align: left;
+      font-weight:bold;
+      margin: 0px;
+      padding:8px;
+      font-family:$fd_family;
+      font-size: 22px;
+      color: $fd_color;
+    }
+  }
+  #link{
+    text-decoration:none;
+  }
+}
+
+#container_login{
+  display:none;
+  position:fixed;
+  left:50%;
+  top:50%;
+  width:250px;
+  height:150px;
+  margin-left:-125px;
+  margin-top:-75px;
+  background:#2E8B57;
+  border-radius:2px;
+  p{
+    text-align:center;
+    font-family:$fd_family;
+    font-weight:bold;
+    font-size: 18px;
+    padding:8px;
+    color:#2F4F4F;
+  }
+  #button{
+    text-align:center;
+    display: block;
+    background: #1E90FF;
+    font-family:$fd_family;
+    color:#4169E1;
+    font-size: 18px;
+    padding:8px;
+    margin:10px;
+    border-radius:2px;
+    border:1px solid #4169E1;
+    cursor: pointer;
+    text-decoration:none;
+  }
+}

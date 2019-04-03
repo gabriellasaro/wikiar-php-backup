@@ -1,0 +1,72 @@
+/* COPYRIGHT 2016-2017 Gabriel Lasaro, Todos os direitos reservados. */
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff; }
+
+#container_home {
+  position: relative;
+  width: 100%;
+  margin-left: 0px;
+  left: 0px;
+  margin-top: 20px; }
+
+.block_post {
+  position: relative;
+  width: 90%;
+  margin: 8px 5% 8px 5%; }
+  .block_post .div_profile {
+    width: 100%;
+    height: 50px;
+    background: #8FBC8F; }
+    .block_post .div_profile img {
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      margin: 5px; }
+    .block_post .div_profile p {
+      display: inline-block;
+      position: absolute;
+      float: left;
+      margin: 12px 0px 12px 0px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 18px;
+      color: #fff; }
+    .block_post .div_profile .not_img {
+      color: #8FBC8F; }
+  .block_post #container_img {
+    position: relative;
+    width: 100%;
+    height: 225px; }
+    .block_post #container_img img {
+      width: 100%;
+      height: 100%; }
+  .block_post #more {
+    position: relative;
+    width: 100%;
+    margin-top: 4px; }
+    .block_post #more #title {
+      text-align: left;
+      font-weight: bold;
+      margin: 0px;
+      padding: 8px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 22px;
+      color: #8FBC8F; }
+  .block_post #link {
+    text-decoration: none; }
+
+hr {
+  color: #303030;
+  background-color: #303030;
+  height: 1px;
+  border: 0px solid;
+  margin: 8px 0px 8px 0px; }
+
+#update_hr {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  left: 0px; }
+
+/*# sourceMappingURL=style2.css.map */

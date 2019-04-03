@@ -1,0 +1,67 @@
+/* COPYRIGHT 2016 - Gabriel Lasaro, Todos os direitos reservados. */
+body {
+  padding: 0px;
+  margin: 0px;
+  background: #fff; }
+
+#title {
+  text-align: center;
+  font-family: Raleway, "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 36px;
+  color: #808080;
+  margin: 10px 10px 40px 10px;
+  padding: 4px; }
+
+#statussenha {
+  text-align: center;
+  font-family: Raleway, "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+  border-radius: 2px;
+  color: #4169E1;
+  background: #6495ED;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #4169E1;
+  margin: 5px 20px 5px 20px; }
+
+form {
+  border-radius: 2px; }
+  form input {
+    display: block;
+    font-family: Raleway, "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 22px;
+    border: 0px;
+    border-radius: 2px;
+    color: #303030;
+    border-bottom: 1px solid #808080;
+    border-radius: 1px;
+    padding: 12px;
+    width: 380px;
+    margin: 10px 0px 10px 0px;
+    outline: none; }
+  form input[type="submit"] {
+    font-family: Raleway, "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 22px;
+    border-radius: 2px;
+    color: #808080;
+    background: #303030;
+    padding: 12px;
+    border: 0px;
+    width: 280px;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+    outline: none; }
+
+#msg-error {
+  text-align: center;
+  font-family: Raleway, "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+  border-radius: 2px;
+  color: #B22222;
+  background: #FF6347;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #B22222;
+  margin: 5px 20px 5px 20px; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,6 @@
+Níveis de permissão:
+  0 -> perfil desativado/excluido;
+  1 -> perfil ativo parcial/sem verificaçao para usuário simples;
+  2 -> perfil ativo por completo/verificado para usuário simples/verificado para editor;
+
+chown www-data:www-data -R /var/www/html/WikiAr/cache

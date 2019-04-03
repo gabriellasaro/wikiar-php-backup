@@ -1,0 +1,230 @@
+/* COPYRIGHT 2016-2017 Gabriel Lasaro, Todos os direitos reservados. */
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff; }
+
+#subbarra {
+  width: 100%;
+  margin-top: 70px;
+  background: #8FBC8F; }
+  #subbarra form {
+    margin: 0px;
+    padding: 10px; }
+    #subbarra form input[type="search"] {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      border: none;
+      color: #303030;
+      background: #2E8B57;
+      border-radius: 2px;
+      padding: 12px;
+      width: 400px;
+      margin-right: 5px;
+      outline: none; }
+    #subbarra form input[type="submit"] {
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 2px;
+      color: #8FBC8F;
+      background: #2F4F4F;
+      padding: 11px;
+      border: 1px solid #2F4F4F;
+      border-radius: 0px 50px 50px 0px;
+      cursor: pointer;
+      outline: none; }
+    #subbarra form input[type="submit"]:hover {
+      background: #2F4F4F;
+      border: 1px solid #2F4F4F; }
+
+#container_category {
+  position: fixed;
+  width: 100%;
+  background: #808080;
+  top: 80px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23); }
+  #container_category ul {
+    margin: 0px;
+    padding: 10px;
+    text-align: center; }
+    #container_category ul li {
+      display: inline-block;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      margin: 0px;
+      padding: 10px;
+      text-transform: uppercase;
+      border-radius: 50px; }
+      #container_category ul li a {
+        text-decoration: none;
+        color: #303030; }
+    #container_category ul li:hover {
+      background: #fff;
+      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23);
+      transition-duration: 0.8s; }
+
+.wikiar-home-bar {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background: #808080; }
+  .wikiar-home-bar #logo {
+    position: relative;
+    width: 200px;
+    margin-left: -100px;
+    left: 50%;
+    margin-top: 14px; }
+  .wikiar-home-bar #img-menu {
+    position: absolute;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 20px;
+    cursor: pointer; }
+
+.box_home {
+  position: relative;
+  width: 1040px;
+  margin-left: -520px;
+  left: 50%;
+  margin-top: 60px; }
+  .box_home .top {
+    position: relative;
+    width: 900px;
+    height: 240px;
+    margin: 8px 8px 60px 8px; }
+    .box_home .top a {
+      text-decoration: none; }
+    .box_home .top #left {
+      float: left;
+      width: 600px;
+      height: 240px; }
+      .box_home .top #left img {
+        width: 100%;
+        height: 100%;
+        background-size: 600px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23); }
+    .box_home .top #right {
+      float: left;
+      width: 300px;
+      height: 240px; }
+      .box_home .top #right #more {
+        width: 100%; }
+        .box_home .top #right #more #title {
+          text-align: left;
+          font-weight: bold;
+          margin: 0px;
+          padding: 10px;
+          font-family: "Open Sans", sans-serif;
+          font-size: 22px;
+          color: #303030; }
+      .box_home .top #right #profile {
+        width: 100%; }
+        .box_home .top #right #profile img {
+          width: 40px;
+          height: 40px;
+          border-radius: 100%;
+          margin: 10px 0px 10px 10px; }
+        .box_home .top #right #profile p {
+          display: inline-block;
+          position: absolute;
+          float: left;
+          margin: 18px 0px 0px 10px;
+          font-family: "Open Sans", sans-serif;
+          font-size: 18px;
+          color: #303030; }
+  .box_home p {
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    color: #808080;
+    margin: 10px 0px 20px 10px; }
+  .box_home .p_msg {
+    font-family: "Open Sans", sans-serif;
+    font-size: 28px;
+    margin: 20px 4px 20px 40px;
+    color: #808080; }
+  .box_home .p_erro {
+    font-style: italic;
+    color: #FF6347; }
+
+.container-post {
+  display: inline-block;
+  position: relative;
+  width: 500px;
+  margin: 8px; }
+  .container-post a {
+    text-decoration: none; }
+  .container-post img {
+    width: 100%;
+    height: 100%;
+    background-size: 500px;
+    background-position: center center;
+    background-repeat: no-repeat; }
+  .container-post .div_profile {
+    position: relative;
+    width: 100%;
+    height: 50px; }
+    .container-post .div_profile img {
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      margin: 5px 0px 5px 5px; }
+    .container-post .div_profile p {
+      display: inline-block;
+      position: absolute;
+      float: left;
+      margin: 12px 0px 12px 10px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 18px;
+      color: #808080; }
+  .container-post #more {
+    position: relative;
+    width: 100%;
+    margin-top: 4px; }
+    .container-post #more #title {
+      text-align: left;
+      font-weight: bold;
+      margin: 0px;
+      padding: 8px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 22px;
+      color: #303030; }
+
+hr {
+  color: #303030;
+  background-color: #303030;
+  height: 1px;
+  border: 0px solid;
+  margin: 8px 10px 8px 10px; }
+
+#hr_barra {
+  color: #303030;
+  background-color: #303030;
+  height: 2px;
+  border: 0px solid;
+  margin: 8px 0px 8px 0px; }
+
+#update_hr {
+  position: relative;
+  width: 400px;
+  margin-left: -200px;
+  left: 50%; }
+
+#ico-img2 {
+  float: left;
+  position: fixed;
+  width: 30px;
+  height: 30px;
+  margin: 12px 8px 13px 8px;
+  background: #2E8B57;
+  padding: 8px;
+  border-radius: 100%;
+  opacity: 0.8;
+  cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

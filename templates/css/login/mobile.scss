@@ -1,0 +1,74 @@
+@charset 'utf-8';
+/* COPYRIGHT 2016 - Gabriel Lasaro, Todos os direitos reservados. */
+$fd_family:Raleway, "Trebuchet MS", Helvetica, sans-serif;
+$fd_size18:18px;
+$fd_color:#808080;
+$fd_margin:2px 2px 2px 20px;
+$fd_padding:4px;
+
+body {
+  padding:0px;
+  margin:0px;
+  background: #fff;
+}
+#title{
+  text-align:center;
+  font-family:$fd_family;
+  font-size:$fd_size18+18;
+  color:$fd_color;
+  margin:10px 10px 40px 10px;
+  padding:$fd_padding;
+}
+#statussenha{
+  text-align: center;
+  font-family: $fd_family;
+  font-size: 18px;
+  border-radius:2px;
+  color:#4169E1;
+  background:#6495ED;
+  width:300px;
+  padding: 10px;
+  border: 1px solid #4169E1;
+  margin: 5px 20px 5px 20px;
+}
+form{
+  input {
+    display:block;
+    font-family: $fd_family;
+    font-size: 22px;
+    border: 0px;
+    border-radius:2px;
+    color:#303030;
+    border-bottom:1px solid #808080;
+    border-radius: 1px;
+    padding: 12px;
+    width: 70%;
+    margin: 10px 0px 10px 0px;
+    outline: none;
+  }
+  input[type="submit"] {
+    font-family: $fd_family;
+    font-size: 22px;
+    border-radius:2px;
+    color:#808080;
+    background:#303030;
+    padding: 12px;
+    border: 0px;
+    width:70%;
+    margin: 10px 0px 10px 0px;
+    cursor: pointer;
+    outline: none;
+  }
+}
+#msg-error{
+  text-align: center;
+  font-family: $fd_family;
+  font-size: 18px;
+  border-radius:2px;
+  color:#B22222;
+  background:#FF6347;
+  width:300px;
+  padding: 10px;
+  border: 1px solid #B22222;
+  margin: 5px 20px 5px 20px;
+}

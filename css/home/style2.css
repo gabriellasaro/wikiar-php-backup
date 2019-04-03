@@ -1,0 +1,109 @@
+/* COPYRIGHT 2016-2017 Gabriel Lasaro, Todos os direitos reservados. */
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fff; }
+
+.wikiar-home-bar #logo {
+  position: relative;
+  width: 150px;
+  margin-left: -75px;
+  left: 50%;
+  margin-top: 14px; }
+
+.box_home {
+  position: relative;
+  width: 100%;
+  margin-left: 0px;
+  left: 0px;
+  margin-top: 60px; }
+  .box_home .top {
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 8px 10% 60px 10%; }
+    .box_home .top a {
+      text-decoration: none; }
+    .box_home .top #left {
+      width: 100%;
+      height: auto; }
+      .box_home .top #left img {
+        width: 100%;
+        height: 100%;
+        background-size: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 3px 3px rgba(0, 0, 0, 0.23); }
+    .box_home .top #right {
+      width: 100%;
+      height: auto; }
+      .box_home .top #right #more {
+        width: 100%; }
+        .box_home .top #right #more #title {
+          text-align: left;
+          font-weight: bold;
+          margin: 0px;
+          padding: 10px;
+          font-family: "Open Sans", sans-serif;
+          font-size: 16px;
+          color: #303030; }
+      .box_home .top #right #profile {
+        width: 100%; }
+        .box_home .top #right #profile img {
+          width: 40px;
+          height: 40px;
+          border-radius: 100%;
+          margin: 10px 0px 10px 10px; }
+        .box_home .top #right #profile p {
+          display: inline-block;
+          position: absolute;
+          float: left;
+          margin: 18px 0px 0px 10px;
+          font-family: "Open Sans", sans-serif;
+          font-size: 18px;
+          color: #808080; }
+
+.container-post {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  margin: 8px 10% 8px 10%; }
+  .container-post a {
+    text-decoration: none; }
+  .container-post img {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat; }
+  .container-post .div_profile {
+    position: relative;
+    width: 100%;
+    height: 50px; }
+    .container-post .div_profile img {
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      margin: 5px 0px 5px 5px; }
+    .container-post .div_profile p {
+      display: inline-block;
+      position: absolute;
+      float: left;
+      margin: 14px 0px 0px 10px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      color: #808080; }
+  .container-post #more {
+    position: relative;
+    width: 100%;
+    margin-top: 4px; }
+    .container-post #more #title {
+      text-align: left;
+      font-weight: bold;
+      margin: 0px;
+      padding: 8px;
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      color: #303030; }
+
+/*# sourceMappingURL=style2.css.map */

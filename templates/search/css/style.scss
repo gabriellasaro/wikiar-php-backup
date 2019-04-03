@@ -1,0 +1,110 @@
+@charset 'utf-8';
+/* COPYRIGHT 2016-2017 Gabriel Lasaro, Todos os direitos reservados. */
+$fd_family:'Open Sans', sans-serif;
+$fd_family2:Raleway, 'Open Sans', sans-serif;
+$fd_size18:18px;
+$fd_color:#303030;
+$fd_margin:2px 2px 2px 20px;
+$fd_padding:4px;
+$boxshadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+body {
+  padding:0px;
+  margin:0px;
+  background-color: #fff;
+}
+.menu-link{
+  float:right;
+  font-family:$fd_family;
+  font-size:16px;
+  color:#303030;
+  font-weight:bold;
+  text-decoration:none;
+  padding:10px;
+  margin:10px;
+}
+img{
+  position: relative;
+  left:50%;
+  margin-left:-200px;
+  margin-top:100px;
+  margin-bottom:16px;
+  width:400px;
+}
+.form-search{
+  position:relative;
+  left:50%;
+  margin-left:-250px;
+  margin-bottom:16px;
+  width:500px;
+  input{
+    margin-bottom:16px;
+    width:500px;
+    font-family:$fd_family;
+    font-size:16px;
+    color:#303030;
+    padding:10px;
+    border-radius:2px;
+    border: 1px solid #303030;
+    outline:none;
+    opacity:0.8;
+  }
+}
+.search-bar{
+  top:0px;
+  position:fixed;
+  width:100%;
+  height:82px;
+  background:#B0C4DE;
+  box-shadow:$boxshadow;
+  img{
+    margin:0px;
+    left:0px;
+    float:left;
+    width:200px;
+    padding:10px;
+    // background:#fff;
+  }
+  form{
+    float:left;
+    margin-left:1px;
+    width:550px;
+    // background:#ff0000;
+    input{
+      margin-top:20px;
+      width:400px;
+      font-family:$fd_family;
+      font-size:16px;
+      color:#303030;
+      padding:10px;
+      border-radius:2px;
+      border: 1px solid #303030;
+      outline:none;
+    }
+  }
+  // img{
+  //   float:left;
+  //   width:200px;
+  //   background:#fff;
+  // }
+  // form{
+  //   float:left;
+  // }
+}
+// BUTTON DEFAULT
+#button{
+    display:inline-block;
+    width:100px;
+    font-family:$fd_family;
+    font-weight:bold;
+    font-size:16px;
+    color:#191970;
+    text-decoration:none;
+    background:#6495ED;
+    margin:10px;
+    border-radius:2px;
+    border: 1px solid #6495ED;
+    padding:10px;
+    -webkit-box-shadow:$boxshadow;
+    cursor:pointer;
+}

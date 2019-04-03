@@ -1,0 +1,144 @@
+@charset 'utf-8';
+/* COPYRIGHT 2016-2017 Gabriel Lasaro, Todos os direitos reservados. */
+$fd_family:'Open Sans', sans-serif;
+$fd_family2:Raleway, 'Open Sans', sans-serif;
+$fd_size18:18px;
+$fd_color:#303030;
+$fd_margin:2px 2px 2px 20px;
+$fd_padding:4px;
+$boxshadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+// INÍCIO: WIKIAR CLASSIC BAR
+.wikiar-classic-bar {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 70px;
+  // background:#2E8B57;
+  background:#808080;
+  border-bottom:2px solid #303030;
+  // box-shadow: $boxshadow;
+  #title {
+    text-align: left;
+    font-family:$fd_family;
+    font-size: 28px;
+    color: #303030;
+    // padding: 2px;
+    margin:13px 5px 0px 40px;
+    text-decoration:none;
+  }
+  #logo{
+    position: relative;
+    width:200px;
+    margin-left: -100px;
+    left:50%;
+    margin-top:4px;
+  }
+  #img-menu {
+    position: absolute;
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 0px;
+    padding: 20px;
+    cursor: pointer;
+  }
+  // #container_search{
+  //   display:inline-block;
+  //   float:right;
+  //   right:0px;
+  //   // width:250px;
+  //   // background:#000;
+  //   margin:14px;
+  //   input{
+  //     width:250px;
+  //     font-family:$fd_family;
+  //     font-size:12px;
+  //     font-color:#2E8B57;
+  //     color:#303030;
+  //     padding:10px;
+  //     border-radius:10px;
+  //     // background:#fff;
+  //     border: 1px solid #3CB371;
+  //     outline:none;
+  //   }
+  // }
+}
+.wcb-relative{
+  position:relative;
+}
+// MENU LATERAL FLOAT
+#seta_topoMENU {
+  display: none;
+  position: fixed;
+  top: 90px;
+  left: 25px;
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #303030;
+}
+#menu_lateral {
+  top:100px;
+  left:15px;
+  display:none;
+  position:fixed;
+  width: 300px;
+  background: #A9A9A9;
+  border-radius: 2px;
+  overflow: auto;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  #link{
+    display: block;
+    text-align: left;
+    font-family:$fd_family;
+    font-size: 16px;
+    color: #dedede;
+    //margin-top:4px;
+    //margin-bottom:4px;
+    padding:12px;
+    //background: #cbcbcb;
+    text-decoration:none;
+  }
+  #link:hover{
+    background: #808080;
+  }
+  #container_profile{
+    width:100%;
+    height:74px;
+    background:#808080;
+    img{
+      width:50px;
+      height:50px;
+      border-radius:100%;
+      margin:12px 5px 12px 12px;
+    }
+    span{
+      position:absolute;
+      float:left;
+      margin:22px 12px 0px 4px;
+      font-family:$fd_family;
+      font-size:$fd_size18+5;
+      color:#303030;
+    }
+  }
+  hr{
+    color: #808080;
+    background-color: #808080;
+    height: 1px;
+    border: 0px solid;
+    margin: 8px 10px 8px 10px;
+  }
+}
+// FIM: WIKIAR CLASSIC BAR
+#copy{
+  text-align:center;
+  // background:#303030;
+  margin:20px 0px 20px 0px;
+  padding:18px;
+  color:#303030;
+  font-family:$fd_family;
+  font-size: 14px;
+}

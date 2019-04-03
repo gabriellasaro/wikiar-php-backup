@@ -1,0 +1,365 @@
+@charset 'utf-8';
+/* COPYRIGHT 2016-2017 Gabriel Lasaro, Todos os direitos reservados. */
+$fd_family:'Open Sans', sans-serif;
+$fd_size18:18px;
+$fd_color:#303030;
+$fd_margin:2px 2px 2px 20px;
+$fd_padding:4px;
+$boxshadow:0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+body {
+  padding:0px;
+  margin:0px;
+  background: #fff;
+}
+// CONTAINER PROFILE
+.container_profile{
+  width:100%;
+  background:#303030;
+  margin-bottom:5px;
+  box-shadow: $boxshadow;
+  img{
+    width:80px;
+    height:80px;
+    margin-top:10px;
+    border-radius:100%;
+  }
+  p{
+    text-align:center;
+    margin-top:10px;
+    font-family:$fd_family;
+    font-size:18px;
+    color:#dedede;
+  }
+  a{
+    text-decoration:none;
+    color:#dedede;
+  }
+}
+// FIM: CONTAINER PROFILE
+// PARTE: PAINEL HOME
+.container_item{
+  display:inline-block;
+  width:300px;
+  height:180px;
+  background:#303030;
+  margin:10px;
+  padding:10px;
+  box-shadow: $boxshadow;
+  p{
+    font-family:$fd_family;
+    font-size:24px;
+    color:#fff;
+    margin:0px;
+  }
+  a{
+    text-decoration:none;
+    color:#fff;
+  }
+  img{
+    width:100px;
+    margin-top:8px;
+    padding:20px;
+    // background:#fff;
+  }
+}
+.c1{
+  background:#1E90FF;
+}
+.c2{
+  background:#A52A2A;
+}
+.c3{
+  background:#008B8B;
+}
+.c4{
+  background:#FF4500;
+}
+.c5{
+  background:#2E8B57;
+}
+.c6{
+  background:#66CDAA;
+}
+// FIM: PARTE PAINEL HOME
+// PARTE LISTA DE PUBLICAÇÕES
+.container_post{
+  display:inline-block;
+  width:80%;
+  background:#6495ED;
+  margin:10px 10% 10px 10%;
+  padding:10px 0px 10px 0px;
+  border-radius:2px;
+  box-shadow: $boxshadow;
+  p{
+    text-align:left;
+    font-family:$fd_family;
+    font-size:24px;
+    color:#fff;
+    margin:10px;
+  }
+  a{
+    text-decoration:none;
+    color:#fff;
+  }
+  #tools{
+    width:100%;
+    ul{
+      margin:0px;
+      li{
+        display: inline-block;
+        background:#303030;
+        color:#fff;
+        padding:4px 10px 4px 10px;
+        margin:0px;
+        border-radius:2px;
+        cursor:pointer;
+      }
+      #delete{
+        background:#B22222;
+      }
+    }
+  }
+}
+.msg{
+  text-align:center;
+  font-family:$fd_family;
+  font-size:24px;
+  color:#303030;
+  margin:10px;
+}
+.button{
+  text-decoration:none;
+}
+// FIM: LISTA DE PUBLICAÇÕES
+// PARTE FORMULÁRIOS
+#div_insert_img{
+  width:80%;
+  font-family:$fd_family;
+  font-size:18px;
+  font-color:#2E8B57;
+  color:#303030;
+  border-radius:2px;
+  background:#fff;
+  border: 1px solid #2E8B57;
+  margin:6px 10% 6px 10%;
+  outline:none;
+  a{
+    display:block;
+    font-family:$fd_family;
+    font-size:18px;
+    color:#0e69da;
+    padding:12px;
+    text-decoration:none;
+  }
+}
+
+form{
+  input{
+    width:80%;
+    font-family:$fd_family;
+    font-size:18px;
+    color:#303030;
+    padding:10px;
+    border-radius:2px;
+    // background:#fff;
+    border: 1px solid #303030;
+    margin:6px 5px 6px 5px;
+    outline:none;
+  }
+  select{
+      width:220px;
+      font-family:$fd_family;
+      font-size:18px;
+      color:#303030;
+      padding:10px;
+      border-radius:2px;
+      background:#fff;
+      border: 1px solid #303030;
+      margin:12px;
+      outline:none;
+  }
+  textarea{
+      width:80%;
+      height:80px;
+      font-family:$fd_family;
+      font-size:18px;
+      color:#303030;
+      padding:10px;
+      border-radius:2px;
+      background:#fff;
+      border: 1px solid #303030;
+      margin:6px 5px 6px 5px;
+      outline:none;
+  }
+  hr{
+    width:80%;
+    padding:0px 10px 0px 10px;
+    margin:25px 0px 25px 10%;
+  }
+  .container_form{
+    margin-left:10%;
+  }
+  p{
+    font-family:$fd_family;
+    font-size:18px;
+    font-weight:bold;
+    color:#303030;
+    margin:10px 5px 0px 10%;
+  }
+  .p_simples{
+    font-family:$fd_family;
+    font-size:18px;
+    font-weight:bold;
+    color:18px;
+    margin:10px 5px 0px 10px;
+  }
+  .p_inline{
+    display:inline-block;
+  }
+  #container_img{
+    display:none;
+    width:80%;
+    height:80%;
+    top:10%;
+    left:10%;
+    position:fixed;
+    background:#3CB371;
+    border-radius:2px;
+    border: 1px solid #303030;
+  }
+}
+// FIM: PARTE FORMULÁRIOS
+// BUTTON DEFAULT
+.button_default{
+    display:inline-block;
+    /*width:200px;*/
+    float:right;
+    font-family:$fd_family;
+    font-weight:bold;
+    font-size:18px;
+    color:#191970;
+    text-decoration:none;
+    background:#6495ED;
+    margin:10px 5px 1px 5px;
+    border-radius:2px;
+    border: 1px solid #6495ED;
+    padding:8px;
+    -webkit-box-shadow:$boxshadow;
+    cursor:pointer;
+}
+.button_danger{
+  color: #FF0000;
+  background: #FF6347;
+  border: 1px solid #FF0000;
+}
+.button_input_complement{
+  width:200px;
+  margin-right:10%;
+}
+// FIM: BUTTON DEFAULT
+// PARTE: EDIÇÃO RÁPIDA
+#container_success{
+  display:none;
+  position:fixed;
+  left:50%;
+  top:50%;
+  width:400px;
+  height:228px;
+  margin-left:-200px;
+  margin-top:-114px;
+  background:#303030;
+  // padding:10px;
+  border-radius:2px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  p{
+    text-align:center;
+    font-family:$fd_family;
+    font-size:24px;
+    color:#fff;
+    margin:10px;
+  }
+  a{
+    text-align:center;
+    font-family:$fd_family;
+    font-size:18px;
+    text-decoration:none;
+    color:#303030;
+    background:#dedede;
+    padding:10px;
+    border-radius:2px;
+  }
+  img{
+    width:100px;
+    margin-top:4px;
+    // padding:20px;
+    // background:#fff;
+  }
+}
+
+#container_loading{
+  display:none;
+  position:fixed;
+  right:10px;
+  bottom:10px;
+  width:210px;
+  background:#303030;
+  padding:20px;
+  border-radius:2px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  p{
+    text-align:center;
+    font-family:$fd_family;
+    font-size:18px;
+    color:#fff;
+  }
+}
+
+#container_msg{
+  display:none;
+  position:fixed;
+  right:10px;
+  bottom:10px;
+  background:#B22222;
+  padding:20px;
+  border-radius:2px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  cursor:pointer;
+  p{
+    text-align:center;
+    font-family:$fd_family;
+    font-weight:bold;
+    font-size:18px;
+    color:#800000;
+    margin:0px;
+  }
+}
+// FIM: EDIÇÃO RÁPIDA
+#sub_title{
+  font-family:$fd_family;
+  font-size:28px;
+  font-weight:bold;
+  color:#303030;
+  margin:20px 5px 20px 40px;
+}
+#msg{
+  text-align: center;
+  font-family: $fd_family;
+  font-size: 18px;
+  border-radius:2px;
+  color:#FF0000;
+  background:#FF6347;
+  width:300px;
+  padding: 10px;
+  border: 1px solid #FF0000;
+  margin: 5px 20px 5px 20px;
+}
+#copy{
+  text-align:center;
+  // background:#303030;
+  margin:20px 0px 20px 0px;
+  padding:18px;
+  color:#303030;
+  font-family:$fd_family;
+  font-size: 14px;
+}
