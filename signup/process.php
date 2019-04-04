@@ -15,7 +15,7 @@ if(strlen($_POST['username'])>120 or strlen($_POST['username'])<4){
 
 if(isset($_POST['g-recaptcha-response'])){
   // echo 'Processando...';
-  $secret = '6Lf_VhYUAAAAAH1iip0hrFTqMwv5b6D4mjVLOaXW';
+  $secret = 'key';
   require('recaptcha/src/autoload.php');
   $recaptcha = new \ReCaptcha\ReCaptcha($secret);
   $resp = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
